@@ -364,3 +364,127 @@
 #     for size in sizes:
 #         print(f"{color} : {size}" )
 
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count += 1
+
+# answer = ""
+# while answer != "yes":
+#     answer = input("Do you agree!")
+# print("Thank You")
+
+# list[]
+# tuple()
+# set{}
+# dict{}
+
+# empty = []
+# letters = ['a','b','c','d']
+# print(empty)
+# print(type(empty))
+
+# empty = list()
+# print(empty)
+
+# person = ['Maria','Data Engineer',29,'india']
+# # name,role, age,  country = person
+# name,*details, country = person
+
+# print(person)
+# list = [True]
+# first,*rest = list
+# print(first)
+# print(rest)
+ 
+# numbers = [1,4,2,5,67,7]
+# # print(max(numbers))
+# numbers.append("x")
+# print(numbers)
+
+# numbers.insert(0,"g")
+# print(numbers[0])
+# print(numbers)
+
+# matrix =  ['a','b','c','d']
+# # matrix.remove('a')
+# matrix.pop(0)
+
+# print(matrix)
+
+# numbers = [[1,4,2,5,67,7], [6,8,35,7,55] ]
+
+# numbers.remove([1,4,2,5,67,7])
+# print(numbers)
+
+# pop to remove a specific position item from from a list
+# .remove() to to remove an item
+
+# numbers = [2,3,5,6,7,8,4,78,9,45,79]
+# numbers.sort(reverse = True)
+# print(numbers)
+# new_list = sorted(numbers, reverse = True)
+# print(new_list)
+
+# name = ["Mithun","Gowda"]
+# name.reverse()
+# print(name)
+
+# letters = ['a','b','c','d']
+# numbers = [1,4,56,7,8,9]
+# comb = letters + numbers
+# # comb = [letters, numbers]
+# # print(comb)
+
+
+# # numbers.extend(letters)
+# # print(numbers)
+ 
+# comb = list(zip(letters, numbers))
+# print(comb)
+
+# ids = [101,102,103,1044,1055]
+
+# employees = ['Alice','John',"Rock",'Peter','Michael']
+
+# res = print(list(zip(ids,employees)))
+
+# print(list(map(str.upper, letters)))
+# letters = ['s','f','g','p']
+
+# multiple = lambda x: x*2
+# print(multiple(2))
+
+# add = lambda x,y: x+y
+# print(add(1,2))
+
+# prices = ['$12.5','$34.56','$1.00']
+# print(list(map(lambda p: float(p.replace("$","")), prices)))
+# p = '$12.50'
+# print(float(p.replace("$","")))
+
+# prices = [120,235,46,30,45,60]
+# print(list(filter(lambda p: p>=100, prices)))
+
+# students = [
+#     ["Maria",80],
+#     ["Kumar",34],
+#     ["flke",69]
+# ]
+# print(list(filter(lambda row: row[1] > 70, students)))
+# print(students[0][1]>70)
+# print(list(filter(lambda row: row[0].startswith("M"),students)))
+# print(students[0][0].startswith("M"))
+
+# employees = ['Alice','John',"Rock",'Peter','Michael']
+
+# print(list(map(str.lower,employees)))
+
+# domains = ['google.com','openai.com','localhost']
+
+# cleaned = [
+#     d.lower() #data tranformation
+#     for d in domains #loop
+#     if  not '.com' in d #filter
+# ]
+# print(cleaned)
