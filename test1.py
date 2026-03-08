@@ -488,3 +488,91 @@
 #     if  not '.com' in d #filter
 # ]
 # print(cleaned)
+
+# myList = [10,20,30,10]
+# print(myList)
+
+# myList[0] = 50
+# print(myList)
+
+# Lists are ordered, allows duplicates, indexed, mutable
+
+# my_list = (50,20,30)
+# # my_list[0] = 50
+# print(my_list)
+# # Tuples are ordered, allows duplicates, indexed, immmutable
+# print(sorted(my_list))
+
+# ids = [10,12,23,45,6,10,22,12,23,45]
+# unique_ids = []
+# for id in ids:
+#     if id not in unique_ids:
+#         unique_ids.append(id)
+
+
+# print(unique_ids)
+
+# my_list = {10,20,40,30}
+# my_list.remove(10)
+# print(my_list)
+
+#lists are unordered, not indexed, no duplicates,mutable
+
+
+# a = my_list
+# a.add(100)
+# print(a)
+
+# my_list.update({1,2})
+# print(my_list)
+
+# a = {1,2,3,.45,57,78,5,6,90}
+# b = {45,57,78,89,90,23,34,90}
+# c = {"a","b","c"}
+
+# print(a.union(b))
+# print(a | b,"\n")
+
+# print(a.intersection(b))
+# print(a & b,"\n")
+
+# print(a.symmetric_difference(b))
+# print(a ^ b,"\n")
+
+# print(a.difference(b))
+# print(b - a,"\n")
+
+# print(a.issubset(b))
+# print(a.issuperset(b))
+# print(a.isdisjoint(b))
+
+#dictionaries - key value pairs
+
+# my_dict = {
+#     'a' : 10,
+#     'b' : 20,
+#     'c' : 30,
+# }
+# print(my_dict)
+
+#dict are ordered
+#keys are unique but values can be duplicates
+#not indexed but keyed
+#values are mutable
+
+# user = {
+#     "id" : 1,
+#     "name" : "Mithun",
+#     "place" : "Earth",
+#     "score" : 10,
+# }
+
+# user_str = {
+#     k : v.upper()
+#     for k, v in user.items()
+#     if isinstance(v, str)  
+# }
+# print(user_str)
+
+# dictionary : collection of multiple & related information
+
