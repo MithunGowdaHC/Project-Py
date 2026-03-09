@@ -600,17 +600,26 @@
 # sum()
 
 
-def write_log(message):
-    with open(r"C:\Users\mithu\OneDrive\Desktop\Python_2025\app.txt>","a") as file:
-        file.write(message + "\n")
+# def write_log(message):
+#     with open(r"C:\Users\mithu\OneDrive\Desktop\Python_2025\app.txt>","a") as file:
+#         file.write(message + "\n")
     
-write_log("App Started")
+# write_log("App Started")
 
-def clean_email(email):
-    cl_email = email.strip().lower()
-    username, domain = cl_email.split("@")
-    return{"username":username,"domain":domain}
+# def clean_email(email):
+#     cl_email = email.strip().lower()
+#     username, domain = cl_email.split("@")
+#     return{"username":username,"domain":domain}
 
-print(clean_email("abcd@gmail.com"))
+# print(clean_email("abcd@gmail.com"))
 
+# def is_valid(password):
+#     return len(password) >= 8
+
+# print(is_valid("mithubhjbkjbkn"))
+
+
+# def is_valid_email(email):  
+#     return "@" in email and "." in email   
+# print(is_valid_email("mimeonfoen@okmdls.com"))
 
