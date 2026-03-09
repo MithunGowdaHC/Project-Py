@@ -575,4 +575,42 @@
 # print(user_str)
 
 # dictionary : collection of multiple & related information
+# import math
+# # Built_in Functions
+# print(len("Python"))
+
+# # Functions from libraries
+# number = 4.2
+# print(math.ceil(number))
+
+# # User defined
+# def greet():
+#     print("Hello World!")
+# greet()
+
+
+
+# def sum(*args):
+#     print(type(args))
+
+# sum()
+# def sum(**kwargs):
+#     print(type(kwargs))
+
+# sum()
+
+
+def write_log(message):
+    with open(r"C:\Users\mithu\OneDrive\Desktop\Python_2025\app.txt>","a") as file:
+        file.write(message + "\n")
+    
+write_log("App Started")
+
+def clean_email(email):
+    cl_email = email.strip().lower()
+    username, domain = cl_email.split("@")
+    return{"username":username,"domain":domain}
+
+print(clean_email("abcd@gmail.com"))
+
 
